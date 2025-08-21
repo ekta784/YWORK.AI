@@ -3,5 +3,5 @@ from .models import Student   # your app's model
 
 class StudentSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Student
+        model = Emptable
         fields = '__all__'
