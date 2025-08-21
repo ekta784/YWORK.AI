@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from .models import Student   # your app's model
 
-class StudentSerializer(serializers.ModelSerializer):
+class EmpSerializer(serializers.ModelSerializer):
     class Meta:
         model = Emptable
         fields = '__all__'
