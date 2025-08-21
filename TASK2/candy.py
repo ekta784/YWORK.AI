@@ -14,5 +14,6 @@ def candy(ratings):
 
     return sum(candies)
 
-ratings = [1, 0, 2]
+#ratings = [1, 0, 2]
+ratings = [1, 1, 2]
 print(candy(ratings)) 
